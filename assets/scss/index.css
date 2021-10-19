@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+}
+
+header .header-container {
+  background-color: #0a4069;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  width: 100vw;
+}
+
+header .header-container img {
+  height: 80px;
+  margin-left: 150px;
+}
+
+header .header-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+  margin-right: 150px;
+}
+
+header .header-container ul li:not(:last-child) {
+  padding-right: 20px;
+}
+
+article {
+  position: relative;
+}
+
+article img {
+  width: 100vw;
+}
+
+article img ::shadow {
+  color: #0a4069;
+}
+
+article .article-container {
+  position: absolute;
+  top: 353px;
+  left: 150px;
+  right: 150px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+article .article-container .teste {
+  margin-top: -30px;
+  font-size: 44px;
+  font-weight: 600;
+  padding: 0;
+}
+
+article .article-container .teste label {
+  text-align: center;
+  background-color: #0a4069;
+  padding: 15px;
+  color: #fff;
+  border-radius: 6px;
+}
+
+article .article-container h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 120px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+article .article-container p {
+  text-align: justify;
+  margin: 60px 170px 0px 170px;
+}
+/*# sourceMappingURL=index.css.map */
