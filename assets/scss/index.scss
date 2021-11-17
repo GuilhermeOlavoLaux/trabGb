@@ -2,6 +2,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+p{
+  font-size: 20px;
+  text-align: justify;
+}
 header {
   .header-container {
     background-color: #0a4069;
@@ -56,6 +60,17 @@ article {
         padding: 15px;
         color: #fff;
         border-radius: 6px;
+      }
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      img {
+        width: 30%;
       }
     }
 

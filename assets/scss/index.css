@@ -3,6 +3,11 @@ body {
   padding: 0px;
 }
 
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
 header .header-container {
   background-color: #0a4069;
   display: -webkit-box;
@@ -70,6 +75,24 @@ article .article-container .teste label {
   padding: 15px;
   color: #fff;
   border-radius: 6px;
+}
+
+article .article-container .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article .article-container .image-container img {
+  width: 30%;
 }
 
 article .article-container h1 {
