@@ -217,6 +217,22 @@ footer .footer .logo-jesuitas {
     display: block;
     margin-right: 20px;
   }
+  article .article-container .image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  article .article-container .image-container img {
+    width: 80%;
+  }
   article .article-container .teste {
     margin-top: -10px;
     font-size: 5px;
@@ -233,6 +249,25 @@ footer .footer .logo-jesuitas {
   article .article-container p {
     text-align: justify;
     margin: 10px 20px 0px 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  article .article-container .image-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  article .article-container .image-container img {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -204,6 +204,17 @@ footer {
   }
   article {
     .article-container {
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        img {
+          width: 80%;
+        }
+      }
       .teste {
         margin-top: -10px;
         font-size: 5px;
@@ -221,6 +232,24 @@ footer {
       p {
         text-align: justify;
         margin: 10px 20px 0px 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  article {
+    .article-container {
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        img {
+          width: 80%;
+        }
       }
     }
   }
