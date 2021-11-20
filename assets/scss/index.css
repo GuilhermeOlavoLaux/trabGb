@@ -41,6 +41,13 @@ header .header-container ul {
   margin-right: 150px;
 }
 
+header .header-container ul a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
 header .header-container ul li:not(:last-child) {
   padding-right: 20px;
 }
