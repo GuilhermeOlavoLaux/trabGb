@@ -157,6 +157,13 @@ footer .footer .logo-jesuitas {
   margin: 0px 20px 0px 0px;
 }
 
+.header-container-mobile ul a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
 .header-container-mobile ul li {
   padding-top: 5px;
   padding-bottom: 5px;
